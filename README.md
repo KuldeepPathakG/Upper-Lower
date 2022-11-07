@@ -14,4 +14,5 @@ def string_test(s):
   print("Original String: ",s)
   print("Number of upper Case Characters: ", d["UPPER_CASE"])
   print("Number of Lower Case Characters: ", d["lower_case"])
-string_test("The Quick Brown Fox")
+str=input("Please Enter Any String: ")
+string_test(str)
